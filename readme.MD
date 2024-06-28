@@ -111,16 +111,16 @@ Below, a brief explanation of what each element in the json means:
 - <u>**arcana:**</u> Corresponding arcana.
 - <u>**level:**</u> Starting level.
 - <u>**description:**</u> In-game description.
-- <u>**image:**</u> Transparent image, usually from most recent games.
+- <u>**image:**</u> Transparent image, usually from the most recent games.
 - <u>**strength, magic, endurance, agility, luck:**</u> Base stats (lowest level).
 - <u>**weak, resists, reflects, absorbs, nullifies:**</u> Type relations, stored in a string array.
-- <u>**dlc:**</u> Whether the persona comes from a DLC or not (0 for true, 1 for false).
+- <u>**dlc:**</u> Whether the persona comes from a DLC or not (0 for false, 1 for true).
 - <u>**query:**</u> String used for querying the persona in the API.
 
 <a id ="api-endpoints"></a>
 
 ## 👁️‍🗨️ API Endpoints
-There are two types of request you can use with this API:
+There are two types of response you can request with this API:
 
 ### **/personas/**
 Will return a list with all of the personas' individual jsons, ordered by ID.<br>
