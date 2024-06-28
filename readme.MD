@@ -114,7 +114,7 @@ Below, a brief explanation of what each element in the json means:
 - <u>**query:**</u> String used for querying the persona in the API.
 
 <a id ="api-endpoints"></a>
-## 🕮 API Endpoints
+## 👁️‍🗨️ API Endpoints
 There are two types of request you can use with this API:
 
 ### **/personas/**
