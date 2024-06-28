@@ -26,7 +26,7 @@ Table of Contents
 
 In its essence, it serves as a mirror of the compendium present in the game, responding the user's requests with a json containing **key characteristics from each persona**, such as its arcana, description, image, stats, resistances and more. 
 
-It currently does not contain fusion possibilities nor price, those being possible future additions for the project.
+It currently does not contain fusion possibilities, movesets nor prices, those being possible future additions for the project.
 
 ### About the Data
 The data which this API is based on was gathered from the following sources:
