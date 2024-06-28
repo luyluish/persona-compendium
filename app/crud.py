@@ -1,6 +1,5 @@
 from sqlalchemy.orm import Session
 from . import models, schemas
-from .utils import convert_name
 
 # Gets all personas from database
 def get_personas(db: Session, skip: int = 0):
