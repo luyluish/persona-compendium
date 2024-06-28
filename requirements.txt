@@ -4,4 +4,4 @@ sqlalchemy
 psycopg2-binary
 unidecode
 pydantic
-dotenv
+python-dotenv
