@@ -18,7 +18,9 @@ Table of Contents
 4. [How to Use](#how-to-use)
 5. [API Endpoints](#api-endpoints)
 
-## ♠️ Overview <a id ="overview"></a>
+<a id ="overview"></a>
+
+## ♠️ Overview
 
 **Persona Compendium** is a read-only API that provides various informations about all the personas from *<strong>Persona 3 Reload</strong>*, the most recent game in the series to date. 
 
@@ -41,6 +43,7 @@ With that in mind, the API was created with the intention of being an **easy acc
 </em></h6>
 
 <a id ="features"></a>
+
 ## ♥️ Features
 - List **all** personas in *Persona 3 Reload*, along with their respective information.
 - Query for a **specific persona** from the game.
@@ -53,6 +56,7 @@ With that in mind, the API was created with the intention of being an **easy acc
 </p>
 
 <a id ="tech-used"></a>
+
 ## ♣️ Tech Used
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"></a>
 
@@ -65,6 +69,7 @@ With that in mind, the API was created with the intention of being an **easy acc
 <a href="https://render.com/"><img src="https://img.shields.io/badge/Render-000000.svg?style=for-the-badge&logo=Render&logoColor=white"></a>
 
 <a id ="how-to-use"></a>
+
 ## ♦️ How to Use
 As a read-only API, the only HTTP methods you can use are *GET* requests, in order to obtain a json as a response. For that, all you need to do is simply **write down one of the API's endpoints** in your browser/tool and you will get your desired json file. 
 
@@ -113,6 +118,7 @@ Below, a brief explanation of what each element in the json means:
 - <u>**query:**</u> String used for querying the persona in the API.
 
 <a id ="api-endpoints"></a>
+
 ## 👁️‍🗨️ API Endpoints
 There are two types of request you can use with this API:
 
