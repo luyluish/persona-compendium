@@ -73,7 +73,7 @@ With that in mind, the API was created with the intention of being an **easy acc
 ## ♦️ How to Use
 As a read-only API, the only HTTP methods you can use are *GET* requests, in order to obtain a json as a response. For that, all you need to do is simply **write down one of the API's endpoints** in your browser/tool and you will get your desired json file. 
 
-The project is currently being held in **Render**, in the address [persona-compendium.onrender.com](persona-compendium.onrender.com). Note that currently the default address doesn't respond with anything, so you need to **specify an endpoint** for it to work. You can either specify which persona you want to check or simply get a list of all the personas.
+The project is currently being held in **Render**, in the address <a href="https://persona-compendium.onrender.com/">persona-compendium.onrender.com/</a>. Note that currently the default address doesn't respond with anything, so you need to **specify an endpoint** for it to work. You can either specify which persona you want to check or simply get a list of all the personas.
 
 Here's an example of the API being used. Note that you need to type the persona's name in **all lowercase**, with **dashes (-) instead of spaces**.
 
