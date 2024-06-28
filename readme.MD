@@ -1,7 +1,7 @@
 # <p align="center"> **Persona Compendium API**</p>
 
 <p align="center">
-    <i>I am thou... Thou art I...</i>
+    <i>I am thou, thou art I...</i>
 </p>
 <p align="center">
   <a>
