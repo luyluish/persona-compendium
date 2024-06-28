@@ -56,9 +56,14 @@ With that in mind, the API was created with the intention of being an **easy acc
 <a id ="tech-used"></a>
 ## ♣️ Tech Used
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"></a>
+
 <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white"></a>
+
 <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"></a>
+
 <a href="https://www.sqlalchemy.org/"><img src="https://img.shields.io/badge/SQLAlchemy-D71F00.svg?style=for-the-badge&logo=SQLAlchemy&logoColor=white"></a>
+
+<a href="https://render.com/"><img src="https://img.shields.io/badge/Render-000000.svg?style=for-the-badge&logo=Render&logoColor=white"></a>
 
 <a id ="how-to-use"></a>
 ## ♦️ How to Use
@@ -113,7 +118,7 @@ Below, a brief explanation of what each element in the json means:
 There are two types of request you can use with this API:
 
 ### **/personas/**
-Will return a list with all of the personas' individual jsons, ordered by ID.<br><br>
+Will return a list with all of the personas' individual jsons, ordered by ID.<br>
 
 ``/personas/``
 ```json
@@ -156,7 +161,7 @@ Will return a list with all of the personas' individual jsons, ordered by ID.<br
 ```
 ### **/personas/{persona-name}/**
 Returns a specific persona's file.
-<br><br>
+<br>
 
 ``/personas/orpheus/``
 ```json
