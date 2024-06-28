@@ -18,9 +18,7 @@ Table of Contents
 4. [How to Use](#how-to-use)
 5. [API Endpoints](#api-endpoints)
 
-<a id ="overview"></a>
-
-## ♠️ Overview
+## ♠️ Overview <a id ="overview"></a>
 
 **Persona Compendium** is a read-only API that provides various informations about all the personas from *<strong>Persona 3 Reload</strong>*, the most recent game in the series to date. 
 
