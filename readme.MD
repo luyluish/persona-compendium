@@ -1,7 +1,7 @@
 # <p align="center"> **Persona Compendium API**</p>
 
 <p align="center">
-    <i>I am thou... Thou art I...</i>
+    <i>I am thou, thou art I...</i>
 </p>
 <p align="center">
   <a>
@@ -26,7 +26,7 @@ Table of Contents
 
 In its essence, it serves as a mirror of the compendium present in the game, responding the user's requests with a json containing **key characteristics from each persona**, such as its arcana, description, image, stats, resistances and more. 
 
-It currently does not contain fusion possibilities nor price, those being possible future additions for the project.
+It currently does not contain fusion possibilities, movesets nor prices, those being possible future additions for the project.
 
 ### About the Data
 The data which this API is based on was gathered from the following sources:
@@ -73,7 +73,7 @@ With that in mind, the API was created with the intention of being an **easy acc
 ## ♦️ How to Use
 As a read-only API, the only HTTP methods you can use are *GET* requests, in order to obtain a json as a response. For that, all you need to do is simply **write down one of the API's endpoints** in your browser/tool and you will get your desired json file. 
 
-The project is currently being held in **Render**, in the address [persona-compendium.onrender.com](persona-compendium.onrender.com). Note that currently the default address doesn't respond with anything, so you need to **specify an endpoint** for it to work. You can either specify which persona you want to check or simply get a list of all the personas.
+The project is currently being held in **Render**, in the address <a href="https://persona-compendium.onrender.com/">persona-compendium.onrender.com/</a>. Note that currently the default address doesn't respond with anything, so you need to **specify an endpoint** for it to work. You can either specify which persona you want to check or simply get a list of all the personas.
 
 Here's an example of the API being used. Note that you need to type the persona's name in **all lowercase**, with **dashes (-) instead of spaces**.
 
@@ -111,16 +111,16 @@ Below, a brief explanation of what each element in the json means:
 - <u>**arcana:**</u> Corresponding arcana.
 - <u>**level:**</u> Starting level.
 - <u>**description:**</u> In-game description.
-- <u>**image:**</u> Transparent image, usually from most recent games.
+- <u>**image:**</u> Transparent image, usually from the most recent games.
 - <u>**strength, magic, endurance, agility, luck:**</u> Base stats (lowest level).
 - <u>**weak, resists, reflects, absorbs, nullifies:**</u> Type relations, stored in a string array.
-- <u>**dlc:**</u> Whether the persona comes from a DLC or not (0 for true, 1 for false).
+- <u>**dlc:**</u> Whether the persona comes from a DLC or not (0 for false, 1 for true).
 - <u>**query:**</u> String used for querying the persona in the API.
 
 <a id ="api-endpoints"></a>
 
 ## 👁️‍🗨️ API Endpoints
-There are two types of request you can use with this API:
+There are two types of response you can request with this API:
 
 ### **/personas/**
 Will return a list with all of the personas' individual jsons, ordered by ID.<br>
