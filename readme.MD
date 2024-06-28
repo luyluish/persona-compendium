@@ -1,4 +1,4 @@
-# <center> **Persona Compendium API**</center>
+# <p align="center"> **Persona Compendium API**</p>
 
 <p align="center">
     <i>I am thou... Thou art I...</i>
