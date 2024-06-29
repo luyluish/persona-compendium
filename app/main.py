@@ -21,6 +21,12 @@ def get_db():
     finally:
         db.close()
 
+# Root path
+@app.get("/")
+async def read_root(db: Session = Depends(get_db)):
+    queries = crud.get_root(db)
+    return {"Persona Compendium API is live! Here's a list of all possible endpoints: /personas/": ["/personas/" + query.query + "/" for query in queries]}
+
 # Read all personas
 @app.get("/personas/", response_model=list[schemas.Persona])
 async def read_personas(skip: int = 0, db: Session = Depends(get_db)):

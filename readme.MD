@@ -120,10 +120,38 @@ Below, a brief explanation of what each element in the json means:
 <a id ="api-endpoints"></a>
 
 ## 👁️‍🗨️ API Endpoints
-There are two types of response you can request with this API:
+There are three types of response you can request with this API:
+
+### **/**
+This is the **root** endpoint. It responds with an alphabetically-ordered list of **all possible endpoints** you can access in the API.
+
+``/``
+```json
+{
+  "Persona Compendium API is live! Here's a list of all possible endpoints: /personas/": [
+    "/personas/abaddon/",
+    "/personas/alice/",
+    "/personas/alilat/",
+    "/personas/ananta/",
+    "/personas/anat/",
+    "/personas/angel/",
+    "/personas/anubis/",
+    "/personas/apsaras/",
+    "/personas/ara-mitama/",
+    "/personas/arahabaki/",
+    "/personas/archangel/",
+    "/personas/arsene/",
+    "/personas/artemisia/",
+    ...
+    "/personas/yurlungur/",
+    "/personas/zorro/",
+    "/personas/zouchouten/"
+  ]
+}
+```
 
 ### **/personas/**
-Will return a list with all of the personas' individual jsons, ordered by ID.<br>
+Will return a list with **all of the personas'** individual jsons, ordered by ID.<br>
 
 ``/personas/``
 ```json
@@ -165,7 +193,7 @@ Will return a list with all of the personas' individual jsons, ordered by ID.<br
 ]
 ```
 ### **/personas/{persona-name}/**
-Returns a specific persona's file.
+Returns a **single persona's** file.
 <br>
 
 ``/personas/orpheus/``
