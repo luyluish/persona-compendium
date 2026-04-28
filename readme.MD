@@ -1,4 +1,4 @@
-### NOTE: The API is currently NOT online. I'm not able to keep it on the web due to financial and infraestructure reasons, so if you want to still use the data/API, you are free to replicate it locally using either the .tsv file in /docs/ or the database .py files.
+### NOTE: The API is currently NOT online. I'm not able to keep it on the web due to financial and infraestructure reasons, so if you want to still use the data, you are free to replicate it locally using either the .tsv file in /docs/ or the database .py files.
 
 # <p align="center"> **Persona Compendium API**</p>
 
