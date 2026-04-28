@@ -1,3 +1,5 @@
+### NOTE: The API is currently NOT online. I'm not able to keep it on the web due to financial and infraestructure reasons, so if you want to still use the data/API, you are free to replicate it locally using either the .tsv file in /docs/ or the database .py files.
+
 # <p align="center"> **Persona Compendium API**</p>
 
 <p align="center">
@@ -72,38 +74,6 @@ With that in mind, the API was created with the intention of being an **easy acc
 
 ## ♦️ How to Use
 As a read-only API, the only HTTP methods you can use are *GET* requests, in order to obtain a json as a response. For that, all you need to do is simply **write down one of the API's endpoints** in your browser/tool and you will get your desired json file. 
-
-The project is currently being held in **Render**, in the address <a href="https://persona-compendium.onrender.com/">persona-compendium.onrender.com/</a>. Note that the root address only responds with the other possible addresses, so you need to **specify an endpoint** to get a proper response. You can either specify which persona you want to check or simply get a list of all the personas.
-
-Here's an example of the API being used. Note that you need to type the persona's name in **all lowercase**, with **dashes (-) instead of spaces**.
-
-``persona-compendium.onrender.com/personas/jack-frost/``
-```json
-{
-  "id": 16,
-  "name": "Jack Frost",
-  "arcana": "Magician",
-  "level": 8,
-  "description": "A winter fairy of European descent. He leaves ice patterns on windows and nips people's noses. Though normally an innocent creature, he will freeze his victims to death if provoked.",
-  "image": "https://megatenwiki.com/images/3/3a/P5X_Jack_Frost_Artwork.png",
-  "strength": 5,
-  "magic": 9,
-  "endurance": 8,
-  "agility": 6,
-  "luck": 4,
-  "weak": [
-    "Fire"
-  ],
-  "resists": [],
-  "reflects": [],
-  "absorbs": [],
-  "nullifies": [
-    "Ice"
-  ],
-  "dlc": 0,
-  "query": "jack-frost"
-}
-```
 
 Below, a brief explanation of what each element in the json means: 
 - <u>**id:**</u> The persona's ID in the database.
